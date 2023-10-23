@@ -35,11 +35,11 @@
   <main>
     <div class="flex items-center justify-center h-[100vh]">
       <!-- Card Esquerdo -->
-      <div class="max-w-md bg-gray-200 p-6 rounded shadow-md m-4 text-center w-[450px] h-[400px]">
+      <div class="max-w-md bg-gray-200 p-1 rounded shadow-md m-4 text-center w-[450px] h-[400px]">
           <h1 class="text-xl font-bold mb-4 ">Bem-Vindos ao CineCicla</h1>
-          <p>aqui você dfdkfndsglkdngdsngdnsglsdbglksbdlgbsdg
-            lbsdgsbdglsdbglsbdglsbdglbsdlgbsdlgbsdlgbsdlgbs
-            dgsdgsdgsdgsdgsdgsdgsdgsd</p>
+          <div class="text-justify">
+            <p>Nam a eros porta, vulputate nisl at, bibendum sem. Suspendisse pharetra massa massa, at elementum nunc bibendum sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi sollicitudin lectus ut massa tempus tempor. Ut eu laoreet justo, vitae rutrum tellus. Praesent scelerisque tellus sed volutpat tempor. </p>
+          </div>
       </div>
   
       <!-- Imagem no Meio -->
@@ -51,10 +51,15 @@
       <!-- Card Direito -->
       <div class="max-w-md bg-gray-200 p-6 rounded shadow-md m-4 text-center w-[450px] h-[400px]">
           <h1 class="text-xl font-bold mb-4">Como eu utilizo o site?</h1>
-          <p>Cvbsdbvbkjxbvkjbvk\jbvkbvkbv\</p>
+          <div class="text-justify"> 
+            <p>Nam a eros porta, vulputate nisl at, bibendum sem. Suspendisse pharetra massa massa, at elementum nunc bibendum sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi sollicitudin lectus ut massa tempus tempor. Ut eu laoreet justo, vitae rutrum tellus. Praesent scelerisque tellus sed volutpat tempor. </p>
+          </div>
       </div>
   </div>
-  
+  <!--Imagem inferior-->
+    <div class="flex">
+      <img class="w-8 flex justify-between" src="imgs/pipoquinhaa.png" alt="Imagem">
+    </div>
   </main>
 
   
@@ -65,21 +70,22 @@
       <input class="rounded p-2 w-[400px] hover:shadow-xl" type="search" placeholder="filtre por aqui...">
     </div>
     
-    <div class="flex justify-between mt-10 items-center mx-[20px] hover:shadow-2xl">
+    <!-- <div class="flex justify-between mt-10 items-center mx-[20px] hover:shadow-2xl">
       
       <a href="lataverde.html"><img src="imgs/lata_verde-removebg-preview 1.png" alt="lataverde"></a>
       <a href="latavermelha.html"><img src="imgs/lata_vermelha-removebg-preview 1.png" alt="latavermelha"></a>
       <a href="lataazul.html"><img src="imgs/lata_azul-removebg-preview 1.png" alt="lataazul"></a>
       <a href="lataamarela.html"><img src="imgs/lata_amarela-removebg-preview 1.png" alt="lataamarela"></a>
-    </div>
-
+    </div> -->
+    <div class="lixeiras grid grid-cols-3 gap-3"></div>
+    <script type="module" src="./js/main.js"></script>
     
   </section>
 
   </main>
 
   <footer class="mt-[6.5rem]">
-   <h1>Envie um E-mail</h1>
+    <h1>Envie um E-mail</h1>
     <form id="emailForm">
         <label for="recipient">Destinatário:</label>
         <input type="email" id="recipient" required><br><br>
