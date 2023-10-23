@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="tailwindconfig.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body class="p-[0] m-[0] bg-azulado">
+  <header class="bg-esverdeado">
+    <nav class="flex justify-between">
+      <div class="flex items-center">
+      <img class="w-[50px]" src="imgs/Firefly_Uma_logo_com_a_sigla_CC_em_tolanidades_preto_e_verde__parecido_com_o_planeta_terra__para_um___2_-removebg-preview.png" alt="Logo">
+      </div>
+
+      <div class="flex items-center">
+        <ul class="flex items-center justify-center">
+          <li class="my-[0px] mx-[15px]"><a class="text-sm font-normal" href="#cards">Cards</a></li>
+          <li class="my-[0px] mx-[15px]"><a class="text-sm font-normal" href="#sobre">Sobre o Site</a></li>
+          <li class="my-[0px] mx-[15px]"><a class="text-sm font-normal" href="#contatos">Contatos</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <div class="flex items-center justify-center h-[100vh]">
+      <!-- Card Esquerdo -->
+      <div class="max-w-md bg-gray-200 p-6 rounded shadow-md m-4 text-center w-[450px] h-[400px]">
+          <h1 class="text-xl font-bold mb-4 ">Bem-Vindos ao CineCicla</h1>
+          <p>aqui você dfdkfndsglkdngdsngdnsglsdbglksbdlgbsdg
+            lbsdgsbdglsdbglsbdglsbdglbsdlgbsdlgbsdlgbsdlgbs
+            dgsdgsdgsdgsdgsdgsdgsdgsd</p>
+      </div>
+  
+      <!-- Imagem no Meio -->
+      <div class="m-4">
+          <h1 class="text-xl font-bold mb-4 text-center">CineCicla</h1>
+          <img class="w-[500px]"  src="imgs/Component 2.png" alt="Imagem">
+      </div>
+  
+      <!-- Card Direito -->
+      <div class="max-w-md bg-gray-200 p-6 rounded shadow-md m-4 text-center w-[450px] h-[400px]">
+          <h1 class="text-xl font-bold mb-4">Como eu utilizo o site?</h1>
+          <p>Cvbsdbvbkjxbvkjbvk\jbvkbvkbv\</p>
+      </div>
+  </div>
+  
+  </main>
+
+  
+
+  <section id="cards">
+    
+    <div class="text-center mt-[40px] mb-[8rem]">
+      <input class="rounded p-2 w-[400px] hover:shadow-xl" type="search" placeholder="filtre por aqui...">
+    </div>
+    
+    <div class="flex justify-between mt-10 items-center mx-[20px] hover:shadow-2xl">
+      
+      <a href="lataverde.html"><img src="imgs/lata_verde-removebg-preview 1.png" alt="lataverde"></a>
+      <a href="latavermelha.html"><img src="imgs/lata_vermelha-removebg-preview 1.png" alt="latavermelha"></a>
+      <a href="lataazul.html"><img src="imgs/lata_azul-removebg-preview 1.png" alt="lataazul"></a>
+      <a href="lataamarela.html"><img src="imgs/lata_amarela-removebg-preview 1.png" alt="lataamarela"></a>
+    </div>
+
+    
+  </section>
+
+  </main>
+
+  <footer class="mt-[6.5rem]">
+   <h1>Envie um E-mail</h1>
+    <form id="emailForm">
+        <label for="recipient">Destinatário:</label>
+        <input type="email" id="recipient" required><br><br>
+
+        <label for="subject">Assunto:</label>
+        <input type="text" id="subject" required><br><br>
+
+        <label for="message">Mensagem:</label><br>
+        <textarea id="message" rows="5" cols="30" required></textarea><br><br>
+
+        <input type="submit" value="Enviar E-mail">
+    </form>
+  </footer> 
+
+</body>
+</html>
