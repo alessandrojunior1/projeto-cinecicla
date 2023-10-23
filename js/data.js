@@ -33,6 +33,13 @@ export const lixeiras = [
       about: 'Lixeira para Orgânico',
       date: '2023-03-22',
       image: '"imgs/marrom.jpg" alt="latamarrom"'    
+    },
+    {
+      name: 'Lixeira Cinza',
+      type: 'Não-Reciclável',
+      about: 'Lixeira para Não-Recicláveis',
+      date: '2023-03-22',
+      image: '"imgs/cinza.png" alt="latacinza"'    
     }
       // {
       //   name: 'Lixeira Marrom',
