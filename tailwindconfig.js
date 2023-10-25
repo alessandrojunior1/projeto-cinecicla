@@ -13,9 +13,6 @@ tailwind.config = {
         'roboto': ['roboto slab', 'serif'],
         'zilla': ['Zilla Slab', 'serif']
       },
-      boxShadow:{
-        'sus': '0 3px 60px 10px rgb(29, 158, 106, /100%)'
-      }
       
     }
   }

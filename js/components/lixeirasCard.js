@@ -2,7 +2,7 @@ import { formatCurrency, formatDate } from '../lib/utils.js';
  
 export function lixeirasCard(lixeiras) {
   return `
-    <div
+  <a ${lixeiras.link}"><div
       id="lixeiras-${lixeiras.id}"
       class="bg-white shadow-md bg-opacity-60 rounded-lg p-4"
     >
@@ -27,6 +27,6 @@ export function lixeirasCard(lixeiras) {
         ${formatDate(lixeiras.created_at)}
         </p>
       </div>
-    </div>
+    </div> </a>
   `;
 }
