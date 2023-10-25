@@ -32,7 +32,8 @@ filtro.addEventListener('input', () => {
   const lixeiras_filtradas = Array.from(uniqueLixeiras); // Converta o conjunto de volta em um array
 
   if (lixeiras_filtradas.length === 0){
-    lixeirasGrid.innerHTML = `<div class="flex items-center"><p class="mx-[540px] text-center text-3xl text-gray-700">Nenhum resultado encontrado</p></div>`
+    // lixeirasGrid.innerHTML = `<div class="flex items-center"><p class="mx-[540px] text-center text-4xl text-white">Nenhum resultado encontrado</p></div>`
+    lixeirasGrid.innerHTML = `<div class="grid place-items-center h-full"><p class="text-4xl text-white text-center">Nenhum resultado encontrado...</p></div>`
     return
   }
   
