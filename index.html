@@ -76,24 +76,33 @@
     <script type="module" src="./js/main.js"></script>
     
   </section>
+  
+  <footer class="mt-[6.5rem] pb-[75px]">
+    <div class="max-w-2xl mx-auto">
+      <h1 class="text-4xl text-center font-bold mb-4">Envie um E-mail</h1>
+      <form id="emailForm" class="flex flex-col gap-4">
+        <div class="flex flex-col gap-2">
+          <label for="recipient" class="text-white font-bold text-sm">Destinatário:</label>
+          <input type="email" id="recipient" required class="rounded-lg bg-white bg-opacity-60 text-black p-2 text-sm">
+        </div>
 
+        <div class="flex flex-col gap-2">
+          <label for="subject" class="text-white font-bold text-sm">Assunto:</label>
+          <input type="text" id="subject" required class="rounded-lg bg-white bg-opacity-60 text-black p-2 text-sm">
+        </div>
+
+        <div class="flex flex-col gap-2">
+          <label for="message" class="text-white font-bold text-sm">Mensagem:</label>
+          <textarea id="message" rows="5" cols="30" required class="rounded-lg bg-white bg-opacity-60 text-black p-2 text-sm"></textarea>
+        </div>
+
+        <input type="submit" value="Enviar E-mail" class="bg-white bg-opacity-60 text-black font-bold py-2 px-4 rounded-lg hover:bg-gray-100 text-sm">
+      </form>
+    </div>
+  </footer>
+  
   </main>
 
-  <footer class="mt-[6.5rem]">
-    <!-- <h1>Envie um E-mail</h1>
-    <form id="emailForm">
-        <label for="recipient">Destinatário:</label>
-        <input type="email" id="recipient" required><br><br>
-
-        <label for="subject">Assunto:</label>
-        <input type="text" id="subject" required><br><br>
-
-        <label for="message">Mensagem:</label><br>
-        <textarea id="message" rows="5" cols="30" required></textarea><br><br>
-
-        <input type="submit" value="Enviar E-mail">
-    </form> -->
-  </footer> 
 
 </body>
 </html>
