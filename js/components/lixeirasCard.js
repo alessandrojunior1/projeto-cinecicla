@@ -2,7 +2,7 @@ export function lixeirasCard(lixeiras) {
   return `
   <a ${lixeiras.link}"><div
       id="lixeiras-${lixeiras.id}"
-      class="bg-white shadow-md bg-opacity-60 rounded-lg p-4"
+      class="bg-white shadow-md bg-opacity-60 rounded-lg p-4 hover:shadow-xl"
     >
     <div class="flex justify-between items-center"> 
       <img src=${lixeiras.image}>
