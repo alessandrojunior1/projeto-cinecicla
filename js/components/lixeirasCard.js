@@ -22,10 +22,6 @@ export function lixeirasCard(lixeiras) {
           <span class="font-bold">Sobre:</span>
           ${lixeiras.about}
         </p>
-        <p class="text-sm text-gray-500">
-        <span class="font-bold">Data:</span>
-        ${formatDate(lixeiras.created_at)}
-        </p>
       </div>
     </div> </a>
   `;
