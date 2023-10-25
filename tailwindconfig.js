@@ -10,6 +10,7 @@ tailwind.config = {
         'verde' : '#2AC239',
         'verdeclaroe' : 'rgba(23, 126, 85, 0.6)',
         'verdecescuro' : 'rgba(77, 114, 105, 0.6)',
+        'cinzento' : '#828385',
       },
       fontFamily: {
         'roboto': ['roboto slab', 'serif'],
