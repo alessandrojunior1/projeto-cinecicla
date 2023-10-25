@@ -1,5 +1,3 @@
-import { formatCurrency, formatDate } from '../lib/utils.js';
- 
 export function lixeirasCard(lixeiras) {
   return `
   <a ${lixeiras.link}"><div
@@ -14,7 +12,7 @@ export function lixeirasCard(lixeiras) {
           ${lixeiras.name}
         </h3>
         <p class="text-lg font-semibold text-gray-700">
-          ${formatCurrency(lixeiras.type)}
+          ${lixeiras.type}
         </p>
       </div>
       <div class="mt-4">
