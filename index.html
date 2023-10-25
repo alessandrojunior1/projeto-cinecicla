@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html class="scroll-smooth" lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,20 +12,27 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+  <style>
+    * {
+      scroll-behavior: smooth !important;
+    }
+  </style>
 </head>
 
-<body class="p-[0] m-[0] bg-azulado">
-  <header class="h-[86px] bg-gradient-to-b from-emerald-600 to-azulado">
-    <nav class="flex justify-between">
+<body class="p-[0] m-[0] bg-azulado scroll-smooth font-zilla">
+  <!--Imagem inferior-->
+  <a class="fixed bottom-[40px] right-[40px] h-[68px] w-[68px] z-50 transition-transform duration-[0.5s] will-change-[scale] hover:scale-[1.1]" target="_blank"><img src="imgs/pipoquinhaa.png"></a>
+  <header class="h-[86px]">
+    <nav class="flex justify-between bg-gradient-to-b from-emerald-600 to-azulado">
       <div class="flex items-center">
-      <img class="w-[50px] mt-2 ml-2" src="imgs/Firefly_Uma_logo_com_a_sigla_CC_em_tolanidades_preto_e_verde__parecido_com_o_planeta_terra__para_um___2_-removebg-preview.png" alt="Logo">
+      <img class="w-[68px] mt-2 ml-2" src="imgs/Firefly_Uma_logo_com_a_sigla_CC_em_tolanidades_preto_e_verde__parecido_com_o_planeta_terra__para_um___2_-removebg-preview.png" alt="Logo">
       </div>
 
       <div class="flex items-center">
         <ul class="flex items-center justify-center">
-          <li class="my-[0px] mx-[15px]"><a class="text-sm font-normal" href="#cards">Cards</a></li>
-          <li class="my-[0px] mx-[15px]"><a class="text-sm font-normal" href="#sobre">Sobre o Site</a></li>
-          <li class="my-[0px] mx-[15px]"><a class="text-sm font-normal" href="#contatos">Contatos</a></li>
+          <li class="my-[0px] mx-[15px]"><a class="text-base text-white font-normal" href="#cards">Cards</a></li>
+          <li class="my-[0px] mx-[15px]"><a class="text-base text-white font-normal" href="#sobre">Sobre o Site</a></li>
+          <li class="my-[0px] mx-[15px]"><a class="text-base text-white font-normal" href="#contatos">Contatos</a></li>
         </ul>
       </div>
     </nav>
@@ -33,51 +40,40 @@
 
 
   <main>
-    <div class="flex items-center justify-center h-[100vh]">
+    <div class="flex items-center justify-center h-screen">
       <!-- Card Esquerdo -->
-      <div class="max-w-md bg-stone-950 bg-opacity-40 p-6 rounded-[51px] shadow-md m-4 text-center w-[450px] h-[400px]">
-          <h1 class="text-xl font-bold mb-4 ">Bem-Vindos ao CineCicla</h1>
-          <div class="text-justify">
-            <p>Nam a eros porta, vulputate nisl at, bibendum sem. Suspendisse pharetra massa massa, at elementum nunc bibendum sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi sollicitudin lectus ut massa tempus tempor. Ut eu laoreet justo, vitae rutrum tellus. Praesent scelerisque tellus sed volutpat tempor. </p>
+      <div class="max-w-md bg-white bg-opacity-60 p-6 rounded-[51px] shadow-md m-4 text-center w-[450px] h-[400px]">
+          <h1 class="text-xl font-bold mb-4 text-black">Bem-Vindos ao CineCicla</h1>
+          <div class="text-justify text-black">
+            <p class="leading-relaxed">Nam a eros porta, vulputate nisl at, bibendum sem. Suspendisse pharetra massa massa, at elementum nunc bibendum sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi sollicitudin lectus ut massa tempus tempor. Ut eu laoreet justo, vitae rutrum tellus. Praesent scelerisque tellus sed volutpat tempor. </p>
           </div>
       </div>
   
       <!-- Imagem no Meio -->
       <div class="m-4">
-          <h1 class="text-xl font-bold mb-4 text-center">CineCicla</h1>
+          <h1 class="text-6xl font-bold mb-28 text-center ">CineCicla</h1>
           <img class="w-[500px]"  src="imgs/Component 2.png" alt="Imagem">
       </div>
   
       <!-- Card Direito -->
-      <div class="max-w-md bg-stone-950 bg-opacity-40 p-6 rounded-[51px] shadow-md m-4 text-center w-[450px] h-[400px]">
+      <div class="max-w-md bg-white bg-opacity-60 p-6 rounded-[51px] shadow-md m-4 text-center w-[450px] h-[400px]">
           <h1 class="text-xl font-bold mb-4">Como eu utilizo o site?</h1>
           <div class="text-justify"> 
-            <p>Nam a eros porta, vulputate nisl at, bibendum sem. Suspendisse pharetra massa massa, at elementum nunc bibendum sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi sollicitudin lectus ut massa tempus tempor. Ut eu laoreet justo, vitae rutrum tellus. Praesent scelerisque tellus sed volutpat tempor. </p>
+            <p class="leading-relaxed" >Nam a eros porta, vulputate nisl at, bibendum sem. Suspendisse pharetra massa massa, at elementum nunc bibendum sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi sollicitudin lectus ut massa tempus tempor. Ut eu laoreet justo, vitae rutrum tellus. Praesent scelerisque tellus sed volutpat tempor. </p>
           </div>
       </div>
-  </div>
-  <!--Imagem inferior-->
-    <div class="flex">
-      <img class="w-8 flex justify-between" src="imgs/pipoquinhaa.png" alt="Imagem">
     </div>
+    <!-- <img class="w-full h-64" src="imgs/nuvens.jpeg" alt="fundo nuvens"> -->
   </main>
 
   
 
-  <section id="cards">
+  <section id="cards" class="pt-10">
     
     <div class="text-center mt-[40px] mb-[8rem]">
-      <input class="rounded p-2 w-[400px] hover:shadow-xl" type="search" placeholder="filtre por aqui...">
+      <input id="filtro" class="rounded-full bg-esverdeado text-black w-[400px] hover:shadow-xl p-3" type="search" placeholder="  Filtre aqui...">
     </div>
-    
-    <!-- <div class="flex justify-between mt-10 items-center mx-[20px] hover:shadow-2xl">
-      
-      <a href="lataverde.html"><img src="imgs/lata_verde-removebg-preview 1.png" alt="lataverde"></a>
-      <a href="latavermelha.html"><img src="imgs/lata_vermelha-removebg-preview 1.png" alt="latavermelha"></a>
-      <a href="lataazul.html"><img src="imgs/lata_azul-removebg-preview 1.png" alt="lataazul"></a>
-      <a href="lataamarela.html"><img src="imgs/lata_amarela-removebg-preview 1.png" alt="lataamarela"></a>
-    </div> -->
-    <div class="lixeiras grid grid-cols-3 gap-3"></div>
+    <div class="lixeiras grid grid-cols-3 gap-8 p-6"></div>
     <script type="module" src="./js/main.js"></script>
     
   </section>

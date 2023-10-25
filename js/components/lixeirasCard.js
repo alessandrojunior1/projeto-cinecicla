@@ -4,7 +4,7 @@ export function lixeirasCard(lixeiras) {
   return `
     <div
       id="lixeiras-${lixeiras.id}"
-      class="bg-white shadow-md rounded-lg p-4"
+      class="bg-white shadow-md bg-opacity-60 rounded-lg p-4"
     >
     <div class="flex justify-between items-center"> 
       <img src=${lixeiras.image}>
